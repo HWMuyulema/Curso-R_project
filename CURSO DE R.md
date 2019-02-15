@@ -1,4 +1,4 @@
-El curso está orientado a personas sin conocimientos previos de R, con una orientación práctica. El programa del curso será el siguiente:
+El curso está orientado a personas sin conocimientos previos de R, con orientación práctica. El programa del curso será el siguiente:
 
 <b>***Día 1***:</b>   
 **Introducción a R: instalación, entorno de trabajo, objetos, clases y operadores, funciones, lectura y escritura de datos**
