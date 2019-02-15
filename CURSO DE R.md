@@ -12,7 +12,7 @@ El curso está orientado a personas sin conocimientos previos de R, y tiene una 
 8 – Librerías y paquetes. Manejo de funciones y colecciones de funciones (librerías).
 9 – Lectura y escritura de ficheros. Aprendiendo a leer y escribir datos, scripts y objetos de R.
 
-**Día 2**:   Estadísticos descriptivos, gráficos básicos, recursión, reestructuración de datos
+***Día 2***:   Estadísticos descriptivos, gráficos básicos, recursión, reestructuración de datos
 
 10 – Estadísticos descriptivos. Obtener estadísticos descriptivos univariados básicos a partir de un conjunto de datos.
 11 – Aplicar funciones sobre las dimensiones de un objeto. Recursión: aplicar una función sobre los elementos de vectores, matrices y data frames, agregación de datos.
