@@ -1,0 +1,183 @@
+
+#############################################################################################
+### Conteo del numero de anticuerpos en relación con la edad y la presencia de malaria    ###
+### Evaluacion biometrica en cien infantes en Africa                                      ###
+### Regresion lineal multiple                                               2011/10/06    ###
+#############################################################################################
+
+#Iniciando R
+R
+
+#Instalando paquetes si es necesario
+#install.packages("ISwR")
+#install.packages("bbmle")
+
+#Cargando paquetes
+library(ISwR)
+
+#Accesando la base de datos del paquete ISwR
+data(malaria)
+
+#Descripcion de la base de datos
+help(malaria)
+
+#Estructura de los datos, ¿como son las variables?
+str(malaria)
+head(malaria)
+
+#Cambiando los nombres de las columnas
+names(malaria) <- c("individuo","edad", "anticuerpos", "enfermedad")
+head(malaria)
+
+malaria$enfermedad2 <- factor(malaria$enfermedad)
+str(malaria)
+
+#resumen de los datos por columnas
+summary(malaria)
+
+#Inspeccion visual de la distribucion de los datos
+par(las=1)
+boxplot(anticuerpos ~ enfermedad, data=malaria, ylab= "Conteo de anticuerpos")
+
+dotchart(malaria$edad, xlab= "Edad de los infantes")
+
+#Especificar un modelo aditivo
+m1 <- lm(anticuerpos~edad+enfermedad, data=malaria)
+
+#Coeficientes parciales de la regresion, errores estandar, valores de t, probabilidad
+summary(m1)
+
+par(mfrow=c(2,2))
+plot(m1)
+
+#Validacion del modelo
+par(mfrow=c(2,2))
+plot(m1)
+
+
+#Logaritmo de anticuerpos
+
+malaria$lanticuerpos <- log(malaria$anticuerpos)
+
+#Ajuste de modelos
+m2 <- lm(lanticuerpos ~ edad + enfermedad, data=malaria)
+par(mfrow=c(2,2))
+plot(m2)
+
+summary(m2)
+
+par(mfrow=c(1,2))
+res <- resid(m2)
+hist(res)
+plot(density(res))
+
+
+boxplot(res~enfermedad, data=malaria)
+#Minimos cuadrados generalizados, ejemplo a utilizar
+
+#Valores predichos
+par(las=1)
+plot(malaria$edad, malaria$lanticuerpos, xlab= "Edad", ylab= "Logaritmo de la concentracion de anticuerpos", type="n")
+points(malaria$edad[malaria$enfermedad==0],malaria$lanticuerpos[malaria$enfermedad==0], pch=19)
+points(malaria$edad[malaria$enfermedad==1],malaria$lanticuerpos[malaria$enfermedad==1], pch=21)
+
+a <-coef(m2)[1]
+da2 <-coef(m2)[3]
+b <- coef(m2)[2]
+
+curve(a + b*x, add=T)
+curve(a+da2 + b*x, add=T, lty=2)
+
+#la otra opcion es utilizar la funcion abline
+
+par(las=1)
+plot(malaria$edad, malaria$lanticuerpos, xlab= "Edad", ylab= "Logaritmo de la concentracion de anticuerpos", type="n")
+points(malaria$edad[malaria$enfermedad==0],malaria$lanticuerpos[malaria$enfermedad==0], pch=19)
+points(malaria$edad[malaria$enfermedad==1],malaria$lanticuerpos[malaria$enfermedad==1], pch=21)
+
+abline(a,b)
+abline(a+da2,b, lty=2)
+
+
+#Considerando la interaccion que puede existir entre la condicion y la edad del infantes
+
+m3 <- lm(lanticuerpos~edad+enfermedad + edad:enfermedad, data=malaria)
+##Equivalente utilizar la siguiente notacion
+
+m3b <- lm(lanticuerpos~edad*enfermedad, data=malaria)
+
+coef(m3);coef(m3b)
+summary(m3)
+
+#Nombre del modelo lineal
+a <-coef(m3)[1]
+a2 <-coef(m3)[3]
+b1 <- coef(m3)[2]
+b2 <- coef(m3)[2] + coef(m3)[4]
+
+
+par(las=1)
+plot(malaria$edad, malaria$lanticuerpos, xlab= "Edad", ylab= "Logaritmo de la concentracion de anticuerpos", type="n")
+points(malaria$edad[malaria$enfermedad==0],malaria$lanticuerpos[malaria$enfermedad==0], pch=19)
+points(malaria$edad[malaria$enfermedad==1],malaria$lanticuerpos[malaria$enfermedad==1], pch=21)
+curve(a + b1*x, add=T)
+curve(a+a2 + b2*x, add=T, lty=2)
+
+b1;b2
+
+#Modelo minimo adecuado, seleccion de modelos
+AICtab(m2,m3,base=T, weights=T)
+AIC(m2);AIC(m3)
+
+step(m3)
+
+m1 <- lm(anticuerpos~edad+enfermedad, data=malaria)
+#Modelo nulo
+m0 <- lm(anticuerpos~1, data=malaria)
+
+AICtab(m0,m1,m2, base=T, weights=T)
+
+
+#Deteccion y eliminacion de objetos presentes
+ls()
+rm(list=ls(all=T))
+
+#Ejercicio 1
+#1. Carga la base de datos rmr
+#2. Describe cual seria la variable predictora y cual la variable de respuesta
+#3. Realiza la inspeccion visual
+#4. Cuales son los coeficientes parciales de la regresion
+#5. Valida el modelo, analiza los residuos, ¿se cumplen los supuestos?
+#6. Grafica las observaciones y los valores predichos de la regresion
+#7. Considera eliminar las observaciones con residuos estandarizados mayores o menores al valor absoluto de 3  ¿Cambian las conclusiones?
+
+
+data(rmr)
+help(rmr)
+
+dotchart(rmr$body.weight, xlab= "peso corporal")
+m4 <- lm(metabolic.rate~body.weight, data=rmr)
+summary(m4)
+
+par(mfrow=c(2,2))
+plot(m4)
+
+par(las=1)
+coef(m4)
+a <- coef(m4)[1]
+b <- coef(m4)[2]
+
+plot(rmr$body.weight, rmr$metabolic.rate, pch=21, xlab= "Tasa metabolica", ylab= "Masa corporal")
+abline(a,b)
+
+
+# Ajustando el modelo potencial sin el outlier
+m4b <- lm(metabolic.rate~body.weight, data=rmr, subset= c(-40))
+summary(m4b)
+par(mfrow=c(2,2))
+plot(m4b)
+
+rmr2 <- rmr[-40,]
+dim(rmr2);dim(rmr)
+rmr2
+
