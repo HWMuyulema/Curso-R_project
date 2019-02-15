@@ -22,5 +22,3 @@ El curso está orientado a personas sin conocimientos previos de R, y tiene una 
 Ejercicio práctico: ejercicio completo de lectura y reestructuración de un conjunto de datos, y obtención de estadísticos descriptivos a distintos niveles de agregación.
 
 
-Para más información, estad atentos a esta página o a la página web de la Asociación Española de Climatología.
-- See more at: http://santiago.begueria.es/2016/04/iii-curso-online-de-introduccion-al-analisis-de-datos-con-r/#sthash.QaFIDbQ6.dpuf
