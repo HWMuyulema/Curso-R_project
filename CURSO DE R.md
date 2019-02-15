@@ -3,9 +3,9 @@ El curso está orientado a personas sin conocimientos previos de R, con una orie
 <b>***Día 1***:</b> 
 Introducción a R: instalación, entorno de trabajo, objetos, clases y operadores, funciones, lectura y escritura de datos
 
-1 – **Introducción a R**.  Origen y características de R, ventajas (y desventajas) con relación a otros sistemas.</b> 
-2 – Instalando R. Descarga e instalación de R en distintos sistemas operativos. Utilización de entornos de trabajo.</b> 
-3 – La ayuda de R. Conociendo los diferentes sistemas de ayuda de R.</b> 
+<b>1 – **Introducción a R**.  Origen y características de R, ventajas (y desventajas) con relación a otros sistemas.</b> 
+<b>2 – Instalando R. Descarga e instalación de R en distintos sistemas operativos. Utilización de entornos de trabajo.</b> 
+<b>3 – La ayuda de R. Conociendo los diferentes sistemas de ayuda de R.</b> 
 4 – Objetos y tipos. Conociendo los objetos y tipos básicos.</b> 
 5 – Operadores. Conociendo los principales operadores en R.</b> 
 6 – Vectores y matrices. Profundizando en el manejo de vectores y matrices.</b> 
