@@ -2,7 +2,8 @@
 #############################################################################################
 ### Conteo del numero de anticuerpos en relación con la edad y la presencia de malaria    ###
 ### Evaluacion biometrica en cien infantes en Africa                                      ###
-### Regresion lineal multiple                                               2011/10/06    ###
+### Regresion lineal multiple                                                             ###
+### Tomado de Luis Cayuelas                                                  15/02/2019   ###
 #############################################################################################
 
 #Iniciando R
