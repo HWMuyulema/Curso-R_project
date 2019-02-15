@@ -1,6 +1,7 @@
 El curso está orientado a personas sin conocimientos previos de R, con una orientación práctica. El programa del curso será el siguiente:
 
-<b>***Día 1***:</b> Introducción a R: instalación, entorno de trabajo, objetos, clases y operadores, funciones, lectura y escritura de datos
+<b>***Día 1***:</b> 
+Introducción a R: instalación, entorno de trabajo, objetos, clases y operadores, funciones, lectura y escritura de datos
 
 1 – **Introducción a R**.  Origen y características de R, ventajas (y desventajas) con relación a otros sistemas.
 2 – Instalando R. Descarga e instalación de R en distintos sistemas operativos. Utilización de entornos de trabajo.
@@ -12,7 +13,8 @@ El curso está orientado a personas sin conocimientos previos de R, con una orie
 8 – Librerías y paquetes. Manejo de funciones y colecciones de funciones (librerías).
 9 – Lectura y escritura de ficheros. Aprendiendo a leer y escribir datos, scripts y objetos de R.
 
-<b>***Día 2***:</b>   Estadísticos descriptivos, gráficos básicos, recursión, reestructuración de datos
+<b>***Día 2***:</b>   
+Estadísticos descriptivos, gráficos básicos, recursión, reestructuración de datos
 
 10 – Estadísticos descriptivos. Obtener estadísticos descriptivos univariados básicos a partir de un conjunto de datos.
 11 – Aplicar funciones sobre las dimensiones de un objeto. Recursión: aplicar una función sobre los elementos de vectores, matrices y data frames, agregación de datos.
