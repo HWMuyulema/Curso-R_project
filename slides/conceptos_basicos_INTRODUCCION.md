@@ -1,7 +1,7 @@
 ﻿<!-- $theme: default -->
 <!-- footer: Taller GEE - MapBiomas - EEA Salta. Noviembre 2017 -->
 <!-- page_number: true -->
-![100% top bg](../images/logo.jpg)
+![100% top bg](../image/logo.jpg)
 
 <br>
 ¿ Porque “R” ?
@@ -28,16 +28,16 @@ que R es una evolución de S,
 
 # Instalación de R sobre Windows.
 R
-![130% center](../images/R.png)
+![130% center](../image/R.png)
 
 Rstudio
-![130% center](../images/Rstudio.png)
+![130% center](../image/Rstudio.png)
 
 ---
 
 # Interfaz de Rstudio
 
-![130% center](../images/interfaz.png)
+![130% center](../image/interfaz.png)
 
 ---
 # Características Importantes de “R”
@@ -84,7 +84,7 @@ datos, documentos, graficos, imagenes, notas, scripts
 Crear una carpeta de proyecto para el curso y dentro de esta crear las carpetas anteriores.
 
 --- 
- ![130% center](../images/estructura.png)
+ ![130% center](../image/estructura.png)
 ---
 
 # Manos a la Obra
@@ -122,7 +122,7 @@ objects() # nos muestra el contenido del espacio de trabajo
 
 # PLOT CON VARIABLES CATEGORICAS
 
- ![130% center](../image/vigotes.png
+ ![130% center](../image/vigotes.png)
 ---
 # PLOTS DE MULTIVARIABLES
 
