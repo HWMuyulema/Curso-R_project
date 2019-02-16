@@ -45,18 +45,13 @@ El sistema R esta dividido en dos partes conceptuales:
 1) El sistema base de R, que es el que puedes bajar de 	CRAN; y, 
 2) En todo lo demás. La funcionalidad de R consta de paquetes modulares. El sistema base de R contiene 	el paquete básico que se requiere para su ejecución y la mayoría de las funciones fundamentales. 
 3) Los otros paquetes contenidos en 	la “base” del sistema incluye a utils, stats, datasets, graphics, grDevices, grid, tools, parallel, compiler, splines, tcltk, stats4.
-
-
-
 ---
+
 # Características Importantes de “R”
 
 La capacidad de gráficos de R es muy sofisticada y mejor que la de la mayoría de los paquetes estadísticos
 
 R es muy útil para el trabajo interactivo, pero también es un poderoso lenguaje de programación para el desarrollo de nuevas herramientas
-
-
-```
 ---
 Al ser software libre lo hace un lenguaje atractivo, debido a que no hay que preocuparse por licencias y cuenta con la libertad que garantiza GNU. Es decir con R se tiene la libertad de: 
 1) 	Correrlo para cualquier propósito, 
