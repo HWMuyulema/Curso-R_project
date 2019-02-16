@@ -84,8 +84,9 @@ datos, documentos, graficos, imagenes, notas, scripts
 Crear una carpeta de proyecto para el curso y dentro de esta crear las carpetas anteriores.
 
 --- 
- ![100% center](../image/estructura.png)
----
+![130% center](../image/estructura.png)
+ 
+ ---
 
 # Manos a la Obra
 
@@ -122,7 +123,7 @@ objects() # nos muestra el contenido del espacio de trabajo
 
 # PLOT CON VARIABLES CATEGORICAS
 
- ![100% center](../image/vigotes.png)
+![100% center](../image/vigotes.png)
 ---
 # PLOTS DE MULTIVARIABLES
 
