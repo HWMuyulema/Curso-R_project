@@ -8,16 +8,16 @@ William Muyulema Chiriboga
                                                                                             Pierre Simon, Marqués de Laplace (1749-1827) 
 
 ---
----
-##ESTADISTICA DESCRIPTIVA: Comandos básicos  
+
+## ESTADISTICA DESCRIPTIVA: Comandos básicos  
 Una definición de “estadística descriptiva” es “describir los datos en forma concisa”, la forma más común de describir un conjunto de datos relacionados entre sí es reportar un valor medio y una dispersión alrededor de dicho valor medio (Risk, 2006).    
 
 edad=c(22,22,23,24,25,25,26,27,28,29,29,29,29,29,31,31,32,33,34,35,35,35,36,38,39,39,42,42,44,44,45,45, 45,47,48,52,59,66,67,69,69)   
 
 |
-|length(edad)|    
-|mean(edad) |   
-|median(edad)|    
-|moda(edad)|   
-|range(edad)|      
+| length(edad)|    
+| mean(edad) |   
+| median(edad)|    
+| moda(edad)|   
+| range(edad)|      
 ---
