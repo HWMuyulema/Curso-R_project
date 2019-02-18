@@ -95,9 +95,11 @@ El comando lines se usa para agregar información a un gráfico existente. Si us
 | font.sub=valor	# de texto en subtítulo   | 4. bold italic |  
 
 ---
-# Ejercicio 1:    utilice su vector “IMC” y realice un grafico de caja acinturado de color rojo con borde verde. Indique un titulo al gráfico y un nombre a la variable ambos color azul.
+### Ejercicio 1:
+Utilice su vector “IMC” y realice un grafico de caja acinturado de color rojo con borde verde. Indique un titulo al gráfico y un nombre a la variable ambos color azul.
 
-# Ejercicio 2:    utilice su objeto “IMC” y realice un histograma de cinco barras
+### Ejercicio 2:    
+Utilice su objeto “IMC” y realice un histograma de cinco barras
 
 ---
 
