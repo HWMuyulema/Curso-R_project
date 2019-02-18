@@ -16,9 +16,12 @@ edad=c(22,22,23,24,25,25,26,27,28,29,29,29,29,29,31,31,32,33,34,35,35,35,36,38,3
 
 |  |  |  |  |
 | - | - | - | - |
-| length(edad) | length(edad) | var(edad) |var(edad) |
-| mean(edad) 
-| median(edad) 
-| moda(edad)
-| range(edad
+| length(edad) | length(edad) 41| var(edad) |var(edad) |
+| mean(edad) | mean (edad) 38.26 | )| 
+| median(edad) | median (edad) 35 | 
+| moda(edad) | moda (edad) 29 | 
+| range(edad) |range (edad) 22.69 | 
+
+
+
 ---
