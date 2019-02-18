@@ -54,7 +54,7 @@ Una desventaja del histograma como estimador de una distribución es que su form
 
 ---
 
-# >Density () 
+### >Density () 
 
 Estima la densidad de una variable numérica, usando una grilla de intervalos de la variable y aproximaciones lineales para producir un gráfico continuo. Se grafica con el comando: plot( density(variable) ).   
 
@@ -62,6 +62,13 @@ Estima la densidad de una variable numérica, usando una grilla de intervalos de
 > plot( density(edad), main=“Densidad de  edad”, xlab=“edad (años)” )
 
 ---
+###>lines(density(name, na.rm=T) )
+ 
+El comando lines se usa para agregar información a un gráfico existente. Si usáramos plot( density(talla) ) se borraría el histograma.   
 
+>hist(edad, probability=T, main="Distribución de edad")
+> lines( density(edad, na.rm=T) 
+
+---
 
 
