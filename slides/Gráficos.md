@@ -48,9 +48,8 @@ Se usa para graficar una o mas variables en cajas
 ### >hist () 
 se usa para observar la distribución de una variable numérica.     
 
-Una desventaja del histograma como estimador de una distribución es que su forma depende del ancho elegido para los intervalos, lo que modifica el número de casos en cada barra (y la simetría observada).   ![100% right](../image/grafico3.png)  
-  
+Una desventaja del histograma como estimador de una distribución es que su forma depende del ancho elegido para los intervalos, lo que modifica el número de casos en cada barra (y la simetría observada).   
 >hist()   
->hist(name,main=“titulo", xlab=“titulo",ylab=“titulo")    
+>hist(name,main=“titulo", xlab=“titulo",ylab=“titulo")    ![130% right](../image/grafico3.png)
 
 ---
