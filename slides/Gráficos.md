@@ -79,19 +79,19 @@ El comando lines se usa para agregar información a un gráfico existente. Si us
 | col=codigo 	# color de las barras | 2. red  |
 | col.axis=“color”	# de valores en ejes X e Y | 3. green   |
 | col.lab=“color”	# de textos en ejes X e Y | 4. bllue |
-| col.main=“color”	# de texto en título principal |5. pale blue  |
+| col.main=“color”	# de texto en título principal | 5. pale blue  |
 | col.sub=“color”	# de texto en subtítulo| 6. purple   |  
  
 ### Tamaño de textos    
-| cex.axis=valor	# de valores en ejes X e Y |Por defecto, los textos |    
+| cex.axis=valor	# de valores en ejes X e Y | Por defecto, los textos |    
 | cex.lab=valor	# de textos en ejes X e Y | teinen tamamño 1 y el |    
 | cex.main=valor	# de texto en título principal | titulo 1.2 |    
-| cex.sub=valor	# de texto en subtítulo  | pulgadas |  
+| cex.sub=valor	# de texto en subtítulo   |pulgadas |  
  
 ### Fonts    
-| font.axis=valor	# de valores en ejes X e Y  |1. plaint text |  
-| font.lab=valor	# de textos en ejes X e Y  |2. bold face|   
-| font.main=valor	# de texto en título principal |3. italic |    
+| font.axis=valor	# de valores en ejes X e Y  | 1. plaint text |  
+| font.lab=valor	# de textos en ejes X e Y  | 2. bold face|   
+| font.main=valor	# de texto en título principal | 3. italic |    
 | font.sub=valor	# de texto en subtítulo   | 4. bold italic |  
 
 
