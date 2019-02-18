@@ -12,9 +12,10 @@ Una definición de “estadística descriptiva” es “describir los datos en f
 
 edad=c(22,22,23,24,25,25,26,27,28,29,29,29,29,29,31,31,32,33,34,35,35,35,36,38,39,39,42,42,44,44,45,45, 45,47,48,52,59,66,67,69,69)   
 
->length(edad)    
->mean(edad)    
->median(edad)    
->moda(edad)   
->range(edad)      
+|
+|length(edad)|    
+|mean(edad) |   
+|median(edad)|    
+|moda(edad)|   
+|range(edad)|      
 
