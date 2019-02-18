@@ -40,7 +40,7 @@ Se usa para graficar una o mas variables en cajas
 
 >boxplot(edad)   
 >boxplot(edad,main="Edad reproductiva")   
->boxplot(edad,main="Edad reproductiva", ylab="Edad (años)") # en x?   ![100% ringth](../image/grafico2.png)
+>boxplot(edad,main="Edad reproductiva", ylab="Edad (años)") # en x?   ![100% right](../image/grafico2.png)
 
 ---
 ## Gráficos unidimensionales
@@ -49,7 +49,7 @@ Se usa para graficar una o mas variables en cajas
 se usa para observar la distribución de una variable numérica.     
 
 Una desventaja del histograma como estimador de una distribución es que su forma depende del ancho elegido para los intervalos, lo que modifica el número de casos en cada barra (y la simetría observada).    
-![100% ringth](../image/grafico3.png)   
+![100% right](../image/grafico3.png)   
 >hist()   
 >hist(name,main=“titulo", xlab=“titulo",ylab=“titulo")    
 
