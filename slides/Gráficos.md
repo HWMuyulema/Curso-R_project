@@ -1,6 +1,6 @@
 ---
 # GRÁFICOS   
-William Muyulema Chiriboga1 
+William Muyulema Chiriboga
 
-1 PhD (c) Tecnologías de la Información Geográfica, Universidad de Alcalá Madrid - España.
+## Curso de introducción a R project con el GUI de RStudio.
 ---
