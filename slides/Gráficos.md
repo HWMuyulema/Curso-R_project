@@ -38,6 +38,6 @@ Se usa para graficar una o mas variables en cajas
 >boxplot(objeto1,main=“titulo principal”,ylab=“nombre y”)
 
 
- >boxplot(edad)   
- >boxplot(edad,main="Edad reproductiva")   
- >boxplot(edad,main="Edad reproductiva", ylab="Edad (años)") # en x?   
+>boxplot(edad)   
+>boxplot(edad,main="Edad reproductiva")   
+>boxplot(edad,main="Edad reproductiva", ylab="Edad (años)") # en x?   ![100% ringth](../image/grafico2.png)
