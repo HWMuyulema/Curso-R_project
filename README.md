@@ -7,7 +7,7 @@ los sistemas base de gráficos y al paquete para graficar ggplot2, para
 visualizar estos datos. Además también abordarás la utilización de uno de los 
 IDEs más populares entre la comunidad de usuarios de R, llamado RStudio
 
-#**Método didáctico**
+# **Método didáctico**  
 Las clases tendrán una dinámica teórico-práctico, haciendo uso intensivo de
 las salas de reuniones de la dirección, donde los estudiantes deberán tener a una
 computadora con internet. Las clases comenzarán con una parte teórica sobre
