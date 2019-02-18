@@ -131,5 +131,8 @@ objects() # nos muestra el contenido del espacio de trabajo
 ---
 
 ## Bibliografía
--  Introduction to JavaScript for Earth Engine. https://developers.google.com/earth-engine/tutorial_js_01
--  Earth Engine Objects. https://developers.google.com/earth-engine/tutorial_js_02
+-	curso-R.Diaz-Uriarte. https://cran.r-project.org/doc/contrib/curso-R.Diaz-Uriarte.pdf
+-	R-intro-1.1.0-espanol.1. https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf
+-	Santana, Julio. (2014) El arte de programar en R. https://cran.rproject.org/doc/contrib/Santana_El_arte_de_programar_en_R.pdf
+-	Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize
+
