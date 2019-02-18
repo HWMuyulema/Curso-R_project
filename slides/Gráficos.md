@@ -27,3 +27,17 @@ La estadística descriptiva nos permite caracterizar con números un conjunto de
 ![100% center](../image/grafico1.png)
 
 ---
+La estadística descriptiva nos permite caracterizar con números un conjunto de datos, sin embargo en ciertas ocasiones un gráfico permite comunicar mejor las características de los datos. 
+
+## Gráficos unidimensionales
+
+ ** >boxplot()
+
+Se usa para graficar una o mas variables en cajas
+
+>boxplot(objeto1,main=“titulo principal”,ylab=“nombre y”)
+
+
+>boxplot(edad)
+>boxplot(edad,main="Edad reproductiva")
+>boxplot(edad,main="Edad reproductiva", ylab="Edad (años)") # en x?
