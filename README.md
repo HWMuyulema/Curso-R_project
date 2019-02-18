@@ -2,7 +2,7 @@
 Este curso proporcionará las bases del lenguaje de programación
 estadística R, la lengua franca de la estadística, el cual permitirá escribir
 programas que lean, manipulen y analicen datos cuantitativos. Explicaremos la instalación del lenguaje; también habrá una introducción a
-los sistemas base de gráficos y paquetes para graficar, para
+los sistemas base de gráficos, paquetes para graficar y para
 visualizar estos datos. Además abordaremos la utilización de uno de los 
 IDEs más populares entre la comunidad de usuarios de R, llamado RStudio
 
