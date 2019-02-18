@@ -102,5 +102,19 @@ Utilice su vector “IMC” y realice un grafico de caja acinturado de color roj
 Utilice su objeto “IMC” y realice un histograma de cinco barras
 
 ---
+##Gráficos bidimensionales
+
+Opciones útiles para gráficos de 2 ejes
+
+main=“texto” 		# título principal del gráfico
+sub=“texto” 		# subtítulo del gráfico
+xlab=“texto” 		# título para el eje X
+ylab=“texto” 		# título para el eje Y
+xlim=c(0,2) 		# limites inferior y superior eje X
+ylim=c(0,250) 		# limites inferior y superior eje Y
+probability=T		# grafica probabilidad en vez de frecuencias
+freq=T			# grafica frecuencias en vez de probabilidad
+labels=T		# muestra el valor sobre cada barra0
+
 
 
