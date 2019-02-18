@@ -31,7 +31,7 @@ La estadística descriptiva nos permite caracterizar con números un conjunto de
 
 ## Gráficos unidimensionales
 
- *>boxplot()
+ ### >boxplot()
 
 Se usa para graficar una o mas variables en cajas
 
