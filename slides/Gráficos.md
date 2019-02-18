@@ -17,7 +17,7 @@ edad=c(22,22,23,24,25,25,26,27,28,29,29,29,29,29,31,31,32,33,34,35,35,35,36,38,3
 |  |  |  |  |
 | - | - | - | - |
 | length(edad) | length(edad) = 41| var(edad) |var(edad) =1717.55 |
-| mean(edad) | mean (edad) =38.26 | | sd (edad) | | sd (edad) = 13.09 |
+| mean(edad) | mean (edad) =38.26 | | sd (edad) |  |  sd (edad) = 13.09 |
 | median(edad) | median (edad) =35 | quantile (edad,0.5) | quantile (edad, 0.5) = 50% 35 |
 | moda(edad) | moda (edad) = 29 | fivenum (edad)= 22 29 35 45 69 |
 | range(edad) |range (edad) = 22.69 | 100* sd (edad)/mean (edad) | |34.22 |
