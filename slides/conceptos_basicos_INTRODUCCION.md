@@ -128,5 +128,5 @@ objects() # nos muestra el contenido del espacio de trabajo
 -	curso-R.Diaz-Uriarte. https://cran.r-project.org/doc/contrib/curso-R.Diaz-Uriarte.pdf
 -	R-intro-1.1.0-espanol.1. https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf
 -	Santana, Julio. (2014) El arte de programar en R. https://cran.rproject.org/doc/contrib/Santana_El_arte_de_programar_en_R.pdf
--	Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize
+-	Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. O'Reilly Media, Inc.. (http://r4ds.had.co.nz/)
 
