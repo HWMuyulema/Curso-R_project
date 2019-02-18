@@ -72,7 +72,7 @@ El comando lines se usa para agregar información a un gráfico existente. Si us
 ---
 ## … más opciones útiles (para hist, plot, etc.)
 
-|     |     | 
+|  |  | 
 | - | - |
 
 | ### Colores de componentes del gráfico |                  
