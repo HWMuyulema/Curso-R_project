@@ -80,8 +80,8 @@ El comando lines se usa para agregar información a un gráfico existente. Si us
 | col.axis=“color”	# de valores en ejes X e Y | 3. green |
 | col.lab=“color”	# de textos en ejes X e Y |4. blue  |
 | col.main=“color”	# de texto en título principal | 5. pale blue |
-| col.sub=“color”	# de texto en subtítulo| purple  |  
-|  | 6. yellow | 
+| col.sub=“color”	# de texto en subtítulo| purple  | 6. purple |
+|  | 7. yellow | 
 |### Tamaño de textos| |    
 | cex.axis=valor	# de valores en ejes X e Y | Por defecto, los textos |    
 | cex.lab=valor	# de textos en ejes X e Y | tienen tamaño 1 y el |    
