@@ -74,7 +74,7 @@ El comando lines se usa para agregar información a un gráfico existente. Si us
 
 |  |  |  
 | - | - |
-| -*Colores de componentes del gráfico | |                
+|# Colores de componentes del gráfico | |                
 | col=“color”	# color de las barras | 1. black |                
 | col=codigo 	# color de las barras | 2. red |
 | col.axis=“color”	# de valores en ejes X e Y | 3. green |
