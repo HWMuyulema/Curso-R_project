@@ -22,6 +22,8 @@ edad=c(22,22,23,24,25,25,26,27,28,29,29,29,29,29,31,31,32,33,34,35,35,35,36,38,3
 | moda(edad) | moda (edad) = 29 |  fivenum (edad)= | 22 29 35 45 69 |
 | range(edad) |range (edad) = 22.69 | 100* sd (edad)/mean (edad) | 34.22 |
 
-
+---
+La estadística descriptiva nos permite caracterizar con números un conjunto de datos, sin embargo en ciertas ocasiones un gráfico permite comunicar mejor las características de los datos. 
+![100% center](../image/grafico1.png)
 
 ---
