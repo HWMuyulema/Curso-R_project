@@ -74,7 +74,7 @@ El comando lines se usa para agregar información a un gráfico existente. Si us
 
 |  |  |  
 | - | - |
-### Colores de componentes del gráfico                 
+|### Colores de componentes del gráfico | |                
 | col=“color”	# color de las barras | ee |                
 | col=codigo 	# color de las barras | ee |
 | col.axis=“color”	# de valores en ejes X e Y | ee |
@@ -82,13 +82,13 @@ El comando lines se usa para agregar información a un gráfico existente. Si us
 | col.main=“color”	# de texto en título principal | ee |
 | col.sub=“color”	# de texto en subtítulo| eee   |  
 | - | - | 
-### Tamaño de textos    
+|### Tamaño de textos| |    
 | cex.axis=valor	# de valores en ejes X e Y | Por defecto, los textos |    
 | cex.lab=valor	# de textos en ejes X e Y | teinen tamamño 1 y el |    
 | cex.main=valor	# de texto en título principal | titulo 1.2 |    
 | cex.sub=valor	# de texto en subtítulo   |pulgadas |  
 | - | - | 
-### Fonts    
+|### Fonts | |   
 | font.axis=valor	# de valores en ejes X e Y  | 1. plaint text |  
 | font.lab=valor	# de textos en ejes X e Y  | 2. bold face|   
 | font.main=valor	# de texto en título principal | 3. italic |    
