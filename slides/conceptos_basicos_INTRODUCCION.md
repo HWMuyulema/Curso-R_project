@@ -101,6 +101,12 @@ data() #muestra los datos de ejemplos disponibles
 <- #genera un objeto es similar a =
 “” ó ‘’ #declara texto
 help(‘[[‘)
+---
+## Instalar Paquetes
+
+Para instalar paquetes debemos señalar el siguiente script:
+
+> install.packages("nombre del paquete")
 
 ---
 .libpaths()# para saber donde están alojados los paquetes de “R”
