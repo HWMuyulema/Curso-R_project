@@ -115,7 +115,9 @@ Opciones útiles para gráficos de 2 ejes
 | ylim=c(0,250) | # limites inferior y superior eje Y |    
 | probability=T | # grafica probabilidad en vez de frecuencias |    
 | freq=T 1 | # grafica frecuencias en vez de probabilidad |    
-| labels=T | # muestra el valor sobre cada barra0 |   
+| labels=T | # muestra el valor sobre cada barra0 |
+
+---
 
 
 
