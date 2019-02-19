@@ -68,6 +68,15 @@ El comando lines se usa para agregar información a un gráfico existente. Si us
 
 >hist(edad, probability=T, main="Distribución de edad")
 > lines( density(edad, na.rm=T) 
+---
+## Line Type
+
+Podemos cambiuar las linneas usando las siguientes opciones . Son para usar particularmente en lineas, axes, y tamaño de líneas.
+
+Descripción
+lty	line type. see the chart below.
+lwd	line width relative to the default (default=1). 2 is twice as wide.
+
 
 ---
 ## … más opciones útiles (para hist, plot, etc.)
