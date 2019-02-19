@@ -138,4 +138,5 @@ objects() # nos muestra el contenido del espacio de trabajo
 -	Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. O'Reilly Media, Inc.. (http://r4ds.had.co.nz/)
 - icebreakR. https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf "buen Manual"
 - R para análisi de científicos reproducibles. https://swcarpentry.github.io/r-novice-gapminder-es/
+- Available CRAN Packages by name. https://cran.r-project.org/web/packages/available_packages_by_name.html
 
