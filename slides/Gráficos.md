@@ -147,6 +147,16 @@ Una de las opciones más importantes de `par` es la posibilidad de hacer múltip
 
 ---
 
+## Gráfico de Normalidad. Comandos qqnorm y qqline   
+
+El comando qqnorm(variable) hace un gráfico de cuantiles que permite determinar gráficamente si una variable tiene distribución normal y qqline(variable) agrega una línea en 45 grados al gráfico, correspondiente al “ajuste ideal” de los datos.   
+
+> qqnorm(talla) 
+> qqline(talla)
+---
+
+
+
 
 
 
