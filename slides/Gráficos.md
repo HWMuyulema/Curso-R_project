@@ -151,9 +151,28 @@ Una de las opciones más importantes de `par` es la posibilidad de hacer múltip
 
 El comando qqnorm(variable) hace un gráfico de cuantiles que permite determinar gráficamente si una variable tiene distribución normal y qqline(variable) agrega una línea en 45 grados al gráfico, correspondiente al “ajuste ideal” de los datos.   
 
-> qqnorm(talla) 
+> qqnorm(talla)    
 > qqline(talla)
 ---
+## Gráfico de variable categórica. Comando pie   
+
+El comando pie permite hacer un gráfico circular de una variable o vector (tabulando previamente la variable con comando table) o de porcentajes o cantidades ya resumidas (sin usar el comando table).   
+
+> pie( table(sexo) )   
+
+### opciones útiles (pie):   
+
+main=“Distribución según Sexo”
+labels=c("hombres","mujeres")
+col=c("cyan","blue" )
+radius=1.05	# default: 0.8
+clockwise=T
+---
+
+
+
+
+
 
 
 
