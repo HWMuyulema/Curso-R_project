@@ -137,4 +137,5 @@ objects() # nos muestra el contenido del espacio de trabajo
 -	Santana, Julio. (2014) El arte de programar en R. https://cran.rproject.org/doc/contrib/Santana_El_arte_de_programar_en_R.pdf
 -	Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. O'Reilly Media, Inc.. (http://r4ds.had.co.nz/)
 - icebreakR. https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf "buen Manual"
+- R para análisi de científicos reproducibles. https://swcarpentry.github.io/r-novice-gapminder-es/04-data-structures-part1/index.html
 
