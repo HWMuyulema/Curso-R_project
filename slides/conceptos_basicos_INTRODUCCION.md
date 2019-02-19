@@ -101,6 +101,7 @@ data() #muestra los datos de ejemplos disponibles
 <- #genera un objeto es similar a =
 “” ó ‘’ #declara texto
 help(‘[[‘)
+
 ---
 ## Instalar Paquetes
 
