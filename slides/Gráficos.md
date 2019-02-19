@@ -105,8 +105,8 @@ Utilice su objeto “IMC” y realice un histograma de cinco barras
 ## Gráficos bidimensionales
 
 Opciones útiles para gráficos de 2 ejes   
-|  |  |    
-| - | - |      
+|  |  |
+| - | - |    
 
 ---
 
