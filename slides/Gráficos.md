@@ -131,7 +131,8 @@ Una de las opciones más importantes de par es la posibilidad de hacer múltiple
 | > par(mfrow=c(1,2)) |	# hace una fila de dos gráficos |   
 | > par(mfcol=c(2,2)) | 	# hace dos columnas de dos gráficos cada una |
 
-*Para ver una lista de los subcomandos disponibles en par, use el comando 
+
++ Para ver una lista de los subcomandos disponibles en par, use el comando 
 
 #### > help(par)
 
