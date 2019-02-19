@@ -105,7 +105,7 @@ help(‘[[‘)
 ---
 ## Instalar Paquetes
 
-Para instalar paquetes debemos señalar el siguiente script:
+Para instalar paquetes debemos señalar el siguiente comando:
 
 > install.packages("nombre del paquete")
 
