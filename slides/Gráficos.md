@@ -71,11 +71,12 @@ El comando lines se usa para agregar información a un gráfico existente. Si us
 ---
 ## Line Type
 
-Podemos cambiuar las linneas usando las siguientes opciones . Son para usar particularmente en lineas, axes, y tamaño de líneas.
+Podemos cambiuar las linneas usando las siguientes opciones . Son para usar particularmente en lineas, axes, y tamaño de líneas.   
 
-Descripción
-lty	line type. see the chart below.
-lwd	line width relative to the default (default=1). 2 is twice as wide.
+### Descripción  
+**lty**	line type. see the chart below.   
+
+**lwd**	line width relative to the default (default=1). 2 is twice as wide.
 
 
 ---
