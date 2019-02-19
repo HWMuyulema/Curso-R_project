@@ -169,7 +169,7 @@ clockwise=T
 ---
 
 ## Bibliografía
-[ejemplo, lattice](https://www.statmethods.net/advgraphs/trellis.html,'Lattice')
+[ejemplo, lattice]https://www.statmethods.net/advgraphs/trellis.html,'Lattice'
 
 
 
