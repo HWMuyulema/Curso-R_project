@@ -142,7 +142,7 @@ Una de las opciones más importantes de `par` es la posibilidad de hacer múltip
 > par(col.main="blue", cex.main=1.5, fg="black", bg="cyan“, font.main=4)
 > hist(edad,xlab=“edad (años)",ylab="Frecuencia",main=“Edad") 
 
-*bg (color de fondo del gráfico)
+<bg> (color de fondo del gráfico)
 
 ---
 
