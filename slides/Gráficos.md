@@ -127,7 +127,9 @@ El comando par permite indicar los parámetros de modo que afecten a todos los g
 Una de las opciones más importantes de par es la posibilidad de hacer múltiples gráficos sobre un mismo dispositivo, con las opciones mfrow y mfcol.  
 
 |  |  |   
-| - | - |    
+| - | - |  
+| > par(mfrow=c(1,2)) |	# hace una fila de dos gráficos |   
+| > par(mfcol=c(2,2)) | 	# hace dos columnas de dos gráficos cada una |
 
 
 
