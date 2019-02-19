@@ -121,7 +121,7 @@ Utilice su objeto “IMC” y realice un histograma de cinco barras
 ---
 ## Par ()
 
-El comando "par" permite indicar los parámetros de modo que afecten a todos los gráficos. Además, algunas opciones no pueden darse directamente en hist u otros comandos gráficos, como bg (color de fondo del gráfico) y fg (color de foreground).   
+El comando ``par`` permite indicar los parámetros de modo que afecten a todos los gráficos. Además, algunas opciones no pueden darse directamente en hist u otros comandos gráficos, como bg (color de fondo del gráfico) y fg (color de foreground).   
 > par(col.main="blue", cex.main=1.5, fg="black", bg="cyan“, font.main=4)   
 
 Una de las opciones más importantes de "par" es la posibilidad de hacer múltiples gráficos sobre un mismo dispositivo, con las opciones mfrow y mfcol.  
