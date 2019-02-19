@@ -162,7 +162,6 @@ El comando pie permite hacer un gráfico circular de una variable o vector (tabu
 
 **opciones útiles (pie)**:   
 
-main=“Distribución según Sexo”
 labels=c("hombres","mujeres")
 col=c("cyan","blue" )
 radius=1.05	# default: 0.8
