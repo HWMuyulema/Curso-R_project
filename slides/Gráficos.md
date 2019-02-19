@@ -168,7 +168,8 @@ radius=1.05	# default: 0.8
 clockwise=T
 ---
 
-
+## Bibliografía
+[ejemplo, lattice](https://www.statmethods.net/advgraphs/trellis.html,'Lattice')
 
 
 
