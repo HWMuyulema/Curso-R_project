@@ -81,6 +81,8 @@ Podemos cambiuar las linneas usando las siguientes opciones . Son para usar part
 **lty**	line type. see the chart below.   
 
 **lwd**	line width relative to the default (default=1). 2 is twice as wide.
+## ejemplo   
+hist(mtcars$mpg, col.lab="red", lwd=4, lty=6)
 
 
 ---
