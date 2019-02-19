@@ -160,7 +160,7 @@ El comando pie permite hacer un gráfico circular de una variable o vector (tabu
 
 > pie( table(sexo) )   
 
-### opciones útiles (pie):   
+**opciones útiles (pie)**:   
 
 main=“Distribución según Sexo”
 labels=c("hombres","mujeres")
