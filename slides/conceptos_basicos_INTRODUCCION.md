@@ -126,10 +126,10 @@ Para instalar paquetes debemos señalar el siguiente comando:
 > install.packages("nombre del paquete")
 
 ---
-.libpaths()# para saber donde están alojados los paquetes de “R”
-update.packages (checkBuilt=T, ask=F) # para actualizar R y paquetes
-browseVignettes()
-objects() # nos muestra el contenido del espacio de trabajo 
+.libpaths()# para saber donde están alojados los paquetes de “R”  
+update.packages (checkBuilt=T, ask=F) # para actualizar R y paquetes  
+browseVignettes()  
+objects() # nos muestra el contenido del espacio de trabajo   
 
 ---
 
