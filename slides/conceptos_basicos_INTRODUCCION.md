@@ -21,11 +21,10 @@ Nos inclinaremos hacia el lado de la programación (lenguaje)más que tocar los 
 
 ---
 # HISTORIA DE “R” Y  S
-R fue creado en 1992 en Nueva Zelanda por Ross Ihaka y Robert Gentleman (Ihaka [1998]).
-A modo de broma Ross y Robert, comienzan a llamar “R” al lenguaje que implementaron, y desde entonces así se le conoce en la muy extendida comunidad amante de dicho lenguaje.
-es un lenguaje que fue desarrollado por John Chambers y colaboradores
-en Laboratorios Bell (AT&T)
-que R es una evolución de S,
+* R fue creado en 1992 en Nueva Zelanda por Ross Ihaka y Robert Gentleman (Ihaka [1998]).
+* A modo de broma Ross y Robert, comienzan a llamar “R” al lenguaje que implementaron, y desde entonces así se le conoce en la muy extendida comunidad amante de dicho lenguaje. 
+* S un lenguaje que fue desarrollado por John Chambers y colaboradores en Laboratorios Bell (AT&T)
+*  R es una evolución de S,
 
 ---
 
