@@ -110,6 +110,15 @@ data() #muestra los datos de ejemplos disponibles
 help(‘[[‘)  
 
 ---
+apropos(‘help’)  
+file.choose() # ó ctrol+ o para buscar archivos   
+search() # para buscar paquetes   
+library() ó require() # para llamar o leer paquetes   
+detach() # para borrar paquetes   
+Library(help=‘MODISTools’)   
+
+
+---
 ## Instalar Paquetes
 
 Para instalar paquetes debemos señalar el siguiente comando:
