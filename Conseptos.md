@@ -1,3 +1,5 @@
+# [GEOESTADÍSTICA](https://github.com/HWMuyulema/Curso-R_project/delete/master/docs/doc_00.md)
+
 ## VARIABLE ALEATORIA 
 
 
