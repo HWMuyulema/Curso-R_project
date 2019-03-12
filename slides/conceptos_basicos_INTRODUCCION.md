@@ -13,8 +13,8 @@
 ---
 ¿ Porque “R” ?
 ========================
-R es un lenguaje de [programación interpretado](https://www.ecured.cu/Lenguaje_interpretado)
-De distribución libre, bajo Licencia [GNU .p3](http://www.informatica.us.es/~ramon/articulos/LicenciasSoftware.pdf),
+* R es un lenguaje de [programación interpretado](https://www.ecured.cu/Lenguaje_interpretado)
+* De distribución libre, bajo Licencia [GNU .p3](http://www.informatica.us.es/~ramon/articulos/LicenciasSoftware.pdf),
 Y se mantiene en un ambiente para el cómputo estadístico y gráfico.
 Multiplataforma (corre en Linux, Windows y Mac)
 Nos inclinaremos hacia el lado de la programación (lenguaje)más que tocar los aspectos estadísticos.
