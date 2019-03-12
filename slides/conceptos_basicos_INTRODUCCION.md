@@ -47,9 +47,6 @@ El sistema R esta dividido en dos partes conceptuales:
 1) El sistema base de R, que es el que puedes bajar de 	CRAN; y, 
 2) En todo lo demás. La funcionalidad de R consta de paquetes modulares. El sistema base de R contiene 	el paquete básico que se requiere para su ejecución y la mayoría de las funciones fundamentales. 
 3) Los otros paquetes contenidos en 	la “base” del sistema incluye a utils, stats, datasets, graphics, grDevices, grid, tools, parallel, compiler, splines, tcltk, stats4.
----
-
-# Características Importantes de “R”
 
 * La capacidad de gráficos de R es muy sofisticada y mejor que la de la mayoría de los paquetes estadísticos
 
@@ -78,7 +75,7 @@ El sistema R esta dividido en dos partes conceptuales:
 # Estructura de un Proyecto
 
 Es recomendable que cada proyecto tenga las carpetas (no es camisa de fuerza pero sirve para el orden):
-datos, documentos, graficos, imagenes, notas, scripts
+__datos, documentos, graficos, imagenes, notas, scripts__
 
 Crear una carpeta de proyecto para el curso y dentro de esta crear las carpetas anteriores.
 
