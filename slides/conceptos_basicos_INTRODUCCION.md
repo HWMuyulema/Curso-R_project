@@ -51,15 +51,15 @@ El sistema R esta dividido en dos partes conceptuales:
 
 # Características Importantes de “R”
 
-La capacidad de gráficos de R es muy sofisticada y mejor que la de la mayoría de los paquetes estadísticos
+* La capacidad de gráficos de R es muy sofisticada y mejor que la de la mayoría de los paquetes estadísticos
 
-R es muy útil para el trabajo interactivo, pero también es un poderoso lenguaje de programación para el desarrollo de nuevas herramientas
+* R es muy útil para el trabajo interactivo, pero también es un poderoso lenguaje de programación para el desarrollo de nuevas herramientas
 ---
-Al ser software libre lo hace un lenguaje atractivo, debido a que no hay que preocuparse por licencias y cuenta con la libertad que garantiza GNU. Es decir con R se tiene la libertad de: 
-1) 	Correrlo para cualquier propósito, 
-2) 	Estudiar como trabaja el programa y adaptarlo a sus necesidades, pues se tiene acceso al código fuente, 
-3) 	Redistribuir copias, y 
-4) 	Mejorar el programa y liberar sus mejoras al público en general
+* Al ser software libre lo hace un lenguaje atractivo, debido a que no hay que preocuparse por licencias y cuenta con la libertad que garantiza GNU. Es decir con R se tiene la libertad de: 
+  1) 	Correrlo para cualquier propósito, 
+  2) 	Estudiar como trabaja el programa y adaptarlo a sus necesidades, pues se tiene acceso al código fuente, 
+  3) 	Redistribuir copias, y 
+  4) 	Mejorar el programa y liberar sus mejoras al público en general
 
 ---
 Es importante mencionar que, debido a su estructura, R consume mucho recurso de memoria, por lo tanto si se utilizan datos de tamaño enorme, el programa se alentaría o, en el peor de los casos, no podría procesarlos.
