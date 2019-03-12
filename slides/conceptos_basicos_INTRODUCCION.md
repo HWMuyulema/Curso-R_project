@@ -148,11 +148,11 @@ objects() # nos muestra el contenido del espacio de trabajo
 ---
 
 ## Bibliografía
--	curso-R.Diaz-Uriarte. https://cran.r-project.org/doc/contrib/curso-R.Diaz-Uriarte.pdf
--	R-intro-1.1.0-espanol.1. https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf
--	Santana, Julio. (2014) El arte de programar en R. https://cran.rproject.org/doc/contrib/Santana_El_arte_de_programar_en_R.pdf
--	Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. O'Reilly Media, Inc.. (http://r4ds.had.co.nz/)
-- icebreakR. https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf "buen Manual"
-- R para análisis de científicos reproducibles. https://swcarpentry.github.io/r-novice-gapminder-es/
-- Available CRAN Packages by name. https://cran.r-project.org/web/packages/available_packages_by_name.html
-- Estadística Universidad de Navarra. http://wpd.ugr.es/~bioestad/guia-r-studio/practica-1-r-studio/
+-	[curso-R.Diaz-Uriarte.] (https://cran.r-project.org/doc/contrib/curso-R.Diaz-Uriarte.pdf)
+-	[R-intro-1.1.0-espanol.1.] (https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf)
+-	[Santana, Julio. (2014) El arte de programar en R.] (https://cran.rproject.org/doc/contrib/Santana_El_arte_de_programar_en_R.pdf)
+-	[Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. O'Reilly Media, Inc..] (http://r4ds.had.co.nz/)
+- [icebreakR.] (https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf "buen Manual")
+- [R para análisis de científicos reproducibles.] (https://swcarpentry.github.io/r-novice-gapminder-es/)
+- [Available CRAN Packages by name.] (https://cran.r-project.org/web/packages/available_packages_by_name.html)
+- [Estadística Universidad de Navarra.]( http://wpd.ugr.es/~bioestad/guia-r-studio/practica-1-r-studio/)
