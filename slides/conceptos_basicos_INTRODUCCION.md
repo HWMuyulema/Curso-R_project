@@ -62,13 +62,15 @@ El sistema R esta dividido en dos partes conceptuales:
   4) 	Mejorar el programa y liberar sus mejoras al público en general
 
 ---
-Es importante mencionar que, debido a su estructura, R consume mucho recurso de memoria, por lo tanto si se utilizan datos de tamaño enorme, el programa se alentaría o, en el peor de los casos, no podría procesarlos.
-Tienen solución, principalmente teniendo cuidado de vectorizar el código; ya que esto permitiría particionarlo y aprovechar en procesamiento paralelo en equipos con multi-núcleos.
+* Es importante mencionar que, debido a su estructura, R consume mucho recurso de memoria, por lo tanto si se utilizan datos de tamaño enorme, el programa se alentaría o, en el peor de los casos, no podría procesarlos.
+
+* Tienen solución, principalmente teniendo cuidado de vectorizar el código; ya que esto permitiría particionarlo y aprovechar en procesamiento paralelo en equipos con multi-núcleos.
 
 ---
 # Modo de Trabajo
-Se comienza con el modo interactivo (en la consola) haciendo pruebas y utilizándolo como manual de ayuda.
-La serie de comandos que devuelven los resultados esperados se guardan y modifican (en el editor) como scripts para crear rutinas reproducibles y automatizables.
+* Se comienza con el modo interactivo (en la consola) haciendo pruebas y utilizándolo como manual de ayuda.
+
+* La serie de comandos que devuelven los resultados esperados se guardan y modifican (en el editor) como scripts para crear /**rutinas reproducibles y automatizables**.
 
 
 ---
