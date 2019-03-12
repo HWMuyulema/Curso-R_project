@@ -10,7 +10,11 @@
 ---
 
 ## ESTADISTICA DESCRIPTIVA: Comandos básicos  
-Una definición de “estadística descriptiva” es “describir los datos en forma concisa”, la forma más común de describir un conjunto de datos relacionados entre sí es reportar un valor medio y una dispersión alrededor de dicho valor medio (Risk, 2006).    
+
+
+Una definición de “estadística descriptiva” es “describir los datos en forma concisa”, la forma más común de describir un conjunto de datos relacionados entre sí es reportar un valor medio y una dispersión alrededor de dicho valor medio [(Risk, 2006).](https://rpubs.com/mgtagle-73/Analisis_CapII)    
+
+Primeramente debemoa contar con un conjunto de datos para realizar la descripción básica de esos datos:
 
 edad=c(22,22,23,24,25,25,26,27,28,29,29,29,29,29,31,31,32,33,34,35,35,35,36,38,39,39,42,42,44,44,45,45, 45,47,48,52,59,66,67,69,69)   
 
@@ -23,11 +27,19 @@ edad=c(22,22,23,24,25,25,26,27,28,29,29,29,29,29,31,31,32,33,34,35,35,35,36,38,3
 | range(edad) |range (edad) = 22.69 | 100* sd (edad)/mean (edad) | 34.22 |
 
 ---
+## ESTADISTICA DESCRIPTIVA (gráfica): Comandos básicos  
 La estadística descriptiva nos permite caracterizar con números un conjunto de datos, sin embargo en ciertas ocasiones un gráfico permite comunicar mejor las características de los datos. 
 ![100% center](../image/grafico1.png)
 
 ---
+## ESTADISTICA DESCRIPTIVA (gráfica): Comandos básicos
+
+
 La estadística descriptiva nos permite caracterizar con números un conjunto de datos, sin embargo en ciertas ocasiones un gráfico permite comunicar mejor las características de los datos. 
+---
+## ESTADISTICA DESCRIPTIVA (gráfica): Comandos básicos
+
+
 
 ## Gráficos unidimensionales
 
@@ -43,6 +55,10 @@ Se usa para graficar una o mas variables en cajas
 >boxplot(edad,main="Edad reproductiva", ylab="Edad (años)") # en x?   ![100% right](../image/grafico2.png)
 
 ---
+## ESTADISTICA DESCRIPTIVA (gráfica): Comandos básicos
+
+
+
 ## Gráficos unidimensionales
 
 ### >hist () 
@@ -57,7 +73,9 @@ Una desventaja del histograma como estimador de una distribución es que su form
 hist(mtcars$mpg, col.lab="red", lwd=4, lty=6)
 
 ---
+## ESTADISTICA DESCRIPTIVA (gráfica): Comandos básicos
 
+Gráficos unidimencionales
 ### >Density () 
 
 Estima la densidad de una variable numérica, usando una grilla de intervalos de la variable y aproximaciones lineales para producir un gráfico continuo. Se grafica con el comando: plot( density(variable) ).   
@@ -66,6 +84,10 @@ Estima la densidad de una variable numérica, usando una grilla de intervalos de
 > plot( density(edad), main=“Densidad de  edad”, xlab=“edad (años)” )
 
 ---
+## ESTADISTICA DESCRIPTIVA (gráfica): Comandos básicos
+
+Gráficos unidimencionales
+
 ### >lines(density(name, na.rm=T) )
  
 El comando lines se usa para agregar información a un gráfico existente. Si usáramos plot( density(talla) ) se borraría el histograma.   
@@ -133,6 +155,21 @@ Utilice su objeto “IMC” y realice un histograma de cinco barras
 | probability=T	 |	# grafica probabilidad en vez de frecuencias |
 | freq=T |			# grafica frecuencias en vez de probabilidad |
 | labels=T| 		# muestra el valor sobre cada barra0 |
+---
+Opciones útiles para gráficos de 2 ejes
+
+
+
+main=“texto” 		# título principal del gráfico  
+sub=“texto” 		# subtítulo del gráfico  
+xlab=“texto” 		# título para el eje X  
+ylab=“texto” 		# título para el eje Y  
+xlim=c(0,2) 		# limites inferior y superior eje X  
+ylim=c(0,250) 		# limites inferior y superior eje Y  
+probability=T		# grafica probabilidad en vez de frecuencias  
+freq=T			# grafica frecuencias en vez de probabilidad  
+labels=T		# muestra el valor sobre cada barra0  
+
 
 ---
 ## Par ()
