@@ -86,28 +86,28 @@ Crear una carpeta de proyecto para el curso y dentro de esta crear las carpetas 
 
 # Manos a la Obra
 
-getwd()
-dir() ó list.files()
-setwd ()
-dir. Create (‘ xxx’) # ojo con la comillas
-file.crate(‘xxx’)
-file. Info(‘xxx’)# información sobre un archivo cualquiera
+getwd()  
+dir() ó list.files()  
+setwd ()  
+dir. Create (‘ xxx’) # ojo con la comillas  
+file.crate(‘xxx’)  
+file. Info(‘xxx’)# información sobre un archivo cualquiera  
 
 --- 
 
-file.rename(‘from to’) # renombrar el archivo
-file.exists (‘xxx’) # es lógico True and False
-History()
-Ctrol+L #borra la consola
-rm(list=ls()) # borra todo lo del espacio del trabajo 
-save.image(‘xxxx.R’)# guarda el script 
+file.rename(‘from to’) # renombrar el archivo  
+file.exists (‘xxx’) # es lógico True and False  
+History()  
+Ctrol+L #borra la consola  
+rm(list=ls()) # borra todo lo del espacio del trabajo     
+save.image(‘xxxx.R’)# guarda el script   
 
 ---
-Load(‘xxx.R’) # lee los script que están en la carpeta
-data() #muestra los datos de ejemplos disponibles
-<- #genera un objeto es similar a =
-“” ó ‘’ #declara texto
-help(‘[[‘)
+Load(‘xxx.R’) # lee los script que están en la carpeta  
+data() #muestra los datos de ejemplos disponibles  
+<- #genera un objeto es similar a =  
+“” ó ‘’ #declara texto  
+help(‘[[‘)  
 
 ---
 ## Instalar Paquetes
