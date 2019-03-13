@@ -2,6 +2,8 @@
 
 La geoestadística aborda el problema de la predicción espacial en una región con continuidad espacial. Los datos geoestadísticos pueden tener dependencia espacial, temporal o ambas. En muchos casos, además, este tipo de datos suelen ser multivariantes [Reyes, 2010, p18](http://bdigital.unal.edu.co/6329/1/1832260.2011.pdf).
 
+[conseptos de un geografo](https://acolita.com/geoestadistica-interpolacion-con-kriging/)
+
 ## VARIABLE ALEATORIA 
 
 
