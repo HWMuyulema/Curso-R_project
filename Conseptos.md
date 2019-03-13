@@ -1,6 +1,6 @@
 # [GEOESTADÍSTICA](https://github.com/HWMuyulema/Curso-R_project/blob/master/docs/geoestadistica.pdf)
 
-La geoestad´ıstica aborda el problema de la predicci´on espacial en una regi´on con continuidad espacial. Los datos geoestad´ısticos pueden tener dependencia espacial, temporal o ambas. En muchos casos, adem´as, este tipo de datos suelen ser multivariantes [Reyes, 2010, p18](http://bdigital.unal.edu.co/6329/1/1832260.2011.pdf).
+La geoestadística aborda el problema de la predicción espacial en una región con continuidad espacial. Los datos geoestadísticos pueden tener dependencia espacial, temporal o ambas. En muchos casos, además, este tipo de datos suelen ser multivariantes [Reyes, 2010, p18](http://bdigital.unal.edu.co/6329/1/1832260.2011.pdf).
 
 ## VARIABLE ALEATORIA 
 
