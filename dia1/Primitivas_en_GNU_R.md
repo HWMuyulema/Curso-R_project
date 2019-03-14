@@ -283,4 +283,36 @@ x[is.na(x)]<-999;x  # codifica como 999 los valores perdidos
 x==NA           # la expresion logica x == NA sa un resultado muy distinto de  
 is.na(x) 
 
+## Indeterminaciones e infinito
+
+x <- c(0,7,8); x/x  
+1/x  
+-1/x  
+is.nan(x)  
+is.nan(x/x)  
+is.nan(1/x) # Hay que tener cuidado con los NaN porque cualquier operacion con un NaN resulta en un NaN
+
+## Manipulación de vectores y caracteres
+
+# Concatena objetos en un vector de caracteres. Funcion paste(..., sep = " ", collapse = NULL)  
+juntar <- paste("Una ", "frase ", "cualquiera",  collapse ="");juntar  
+v1<-c("A","B")  
+v2<-2:3  
+codigos <- paste(v1,v2, sep = "");print(codigos)  
+codigos <- paste(v1,v2, sep = ".");print(codigos)  
+x <- paste(LETTERS[1:5]);x  
+x <- paste(LETTERS[1:5], collapse="");x  
+
+# Concatena e imprime. Funcion cat(... , file = "", sep = " ", fill = F, labels = NULL, append = F)  
+verano <- month.abb[7:9]; verano  
+cat(verano)         # el resultado no puede guardarse en ua variable  
+cat(verano,"\n")  
+cat(verano, sep=',')        # concatena separando con comas e imprime  
+cat(verano, sep=';', fill=3)  
+cat("Estaciones:","\t","Moncloa","\n", "\t", "\t","Aluche","\n")  
+
+
+#Todo junto: cat() y paste()  
+x<-2/3; cat(paste("resultado", signif(x,2), sep=" : " ),"\n")  
+
 
