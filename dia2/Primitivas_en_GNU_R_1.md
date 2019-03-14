@@ -63,4 +63,68 @@ X%*%X.inv                # Comprueba el resultado. Ojo a los errores de redondeo
 A <- matrix(c(1,4,12,15),2,2); A  
 B <- matrix(c(5,2),2,1);B  
 X <- solve(A,B); X  
-A%*%X            # comprueba que el resultado es efectivamente B  
+A%*%X            # comprueba que el resultado es efectivamente B 
+
+## Algunaas funciones que ooperan sobre filas  o columnas completas
+
+X <- matrix(c(1,4,12,15),2,2); X  
+rowSums(X)  
+colSums(X)  
+rowMeans(X)  
+colMeans(X)  
+
+## Apply
+
+apply(X,1,sum)       # suma por filas; equivale a rowSums(X)  
+apply(X,2,mean)  # media por columnas; equivale a colMeans(X)  
+apply(X,1,sd)  
+
+## Matrices multidimencionales
+
+A <- array(1:24, c(3, 4, 2)); A
+dimnames(A) <- list(c("fila1", "fila2", "fila3"), c("col1", "col2", "col3", "col4"), c("capa 1", "capa 2"));A
+
+## Listas
+
+Son una especie de contenedores generales donde puede mezclarce todo tipo de componentes (objetos de cualquier tipo y cualquier longitud)
+
+Son unos objetos poco estructurados y, por tanto, muy flexibles
+
+Muchas funciones nativas de R devuelven el resultado en forma de lista
+
+rm(list=ls())  
+mis.num <- seq(1.0, 2.0, 0.1); mis.num2 <- 2:4  
+Mi.matriz <- matrix(1:12,3,4); Mi.matriz  
+mis.caracteres <- paste(LETTERS[1:5]);mis.caracteres  
+mis.logicos <- mis.num > 1.65; mis.logicos  
+lista1 <- list(mis.num, mis.num2, Mi.matriz, mis.caracteres,mis.logicos)  
+lista1
+
+## Indexación, nombres y atributos
+
+length(lista1)       # devuelve el numero de componentes de la lista  
+str(lista1)      # devuelve informacion sobre la estructura de la lista  
+a <- lista1[[1]] # devuelve el 1er objeto de la lista en forma de vector/matriz (y nombre  excluido)  
+a; typeof(a)  
+b <- lista1[1]       # devuelve una sublista compuesta por los elementos de la 1a entrada de la lista (nombre incluido)  
+b; typeof(b)  
+
+nomb <- c("reales","enteros", "matriz", "caracteres", "logicos")  
+names(lista1) <- nomb;   # asigna nombres a los componenes de la lista  
+names(lista1)                # devuelve los nombres de los componentes (si los hay)  
+lista1[["reales"]]  
+lista1$logicos           # equivalente a lista1[["logicos"]] y a lista[[5]]   
+
+#Otro modo de definir una lista que incluye nombres para los componentes 
+lista2 <- list(A=mis.num, B=mis.num2); lista2  
+names(lista2)
+
+## Attach
+Las funciones Attach(), y detach(),"cargan" listas y simplifican las referencias
+
+attach(lista1, warn.conflicts = T)
+
+
+
+
+
