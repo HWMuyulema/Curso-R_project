@@ -50,11 +50,11 @@ Alt + Shift + k
 
 ## Asigncaión de valores a variables	
 
-x <- 1                       # asigna el valor 1 a la variable x	
-x                            # lo escribe por pantalla	
-y <- x^2	
-x = 1                        # una alternativa	
-1 -> x                       # otra alternativa	
+x <- 1                       # asigna el valor 1 a la variable x  	
+x                            # lo escribe por pantalla	  
+y <- x^2   	
+x = 1                        # una alternativa	  
+1 -> x                       # otra alternativa	  
 
 ## Funciones
 
