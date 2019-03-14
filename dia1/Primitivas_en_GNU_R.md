@@ -225,7 +225,7 @@ x <- seq(19,6,-3);x
 
 rep(x,1:length(x))      # 'times' puede estar implicito times={1:length(x)}
 
-## ORdenación de vectores
+## Ordenación de vectores
 
 
 
@@ -247,4 +247,15 @@ x.ord <- order(x,y)     # ordena los valores de x y, en caso de empate, utiliza 
 
 x.ord;x;y
 
+## Ordenadores comparativos <,<=,>,>=,=,!
 
+x <- c(1:10); x  
+valor.verdad <- x>5; valor.verdad  
+x <- 1:10  
+x[x >= 5] <- 20; x  # condicional implicito  
+x[x == 1] <- 25; x  
+x <- 1:3; y <- 1:3  
+x == y          # equivalente a identical(x, y) o all.equal(x, y, tol=0)  
+y <- y+0.001; y  
+identical(x, y)  
+all.equal(x, y, tol=0.001)  
