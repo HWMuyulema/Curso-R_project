@@ -171,7 +171,7 @@ length(x)       # devuelve la longitud de x
 
 x[11] <- 99; x
 
-## Cálculo vectorizado, Equivale a un bucle implicito
+## Cálculo vectorizado, Equivale a un bucle implícito
 
 
 x <- c(1,2,3,4,5)
@@ -224,4 +224,27 @@ rep(c(0,1),times=c(4,3))    # 'times' puede ser un vector. Aqui ya no cabe 'each
 x <- seq(19,6,-3);x
 
 rep(x,1:length(x))      # 'times' puede estar implicito times={1:length(x)}
+
+## ORdenación de vectores
+
+
+
+x <- c(20,80,30,50,0)
+
+order (x, decreasing=F)     # devuelve las posiciones del vector ordenadas segun su contenido
+
+sort (x, decreasing=F)      # devuelve el contenido del vector ordenado
+
+rank(x)             # devuelve el orden de cada posicion segun su contenido
+
+min(x)
+
+which.min(x)            # equivale a which(x == min(x))
+
+x <- c(1,1,3:1,1:4,3); y <- c(0,9:1)
+
+x.ord <- order(x,y)     # ordena los valores de x y, en caso de empate, utiliza los valores de y en las posiciones correspondientes. Ambos, x e y deben tener la misma longitud
+
+x.ord;x;y
+
 
