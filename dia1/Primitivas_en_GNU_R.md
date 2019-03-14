@@ -153,5 +153,75 @@ as.logical(y)
 
 as.numeric(y)
 
+# Vectores
 
+## Básico
+
+x <- c(1,4,6,3,7); x
+
+x[3]            # devuelve el valor guardado en 3a posicion
+
+x[-4]           # devuelve todo excepto el valor
+
+						# guardado en 4a posicion
+						
+x[1] <- 35      # guarda el valor 35 en la primer posicion
+
+length(x)       # devuelve la longitud de x
+
+x[11] <- 99; x
+
+## Cálculo vectorizado, Equivale a un bucle implicito
+
+
+x <- c(1,2,3,4,5)
+
+y <- c(5,4,3,2,1)
+
+x+y
+
+y <- c(1,2,3);y
+
+suma <- x+y; suma       # recicla el vector mas corto
+
+suma2 <- x-1            # con escalares parece mas natural
+
+x <- c(0.0001, 0.001, 0.01, 0.1, 1)
+
+log10(x)            # muchas funciones tambien se aplica vectorizadamente
+
+## Generación de secuencias regulares
+
+
+1:10
+
+
+1:10-1              # el operador ':' tiene maxima prioridad
+1:{10-1}
+
+#funcion seq(from, to, by, length)
+
+x <- seq (-3,3,0.5);x       # valores desde -3 hasta 3 a intervalos de 0.5
+
+seq (-3,3,length=10)        # 10 valores equiespaciados desde -3 hasta 3
+
+seq (-3, by=0.5,length=10)  # 10 valores a intervalos de 0.5 desde -3
+
+seq(along=x)            # Genera la secuencia 1, 2, 3,..., length(x)
+
+#funcion rep(x, times, each)
+
+x <- 1:4
+
+rep(x,times=3)          # repite el contenido de x tres veces
+
+rep(x,each=3)               # repite cada elemento de x tres veces
+
+rep(x,times=2,each=3)
+
+rep(c(0,1),times=c(4,3))    # 'times' puede ser un vector. Aqui ya no cabe 'each'
+
+x <- seq(19,6,-3);x
+
+rep(x,1:length(x))      # 'times' puede estar implicito times={1:length(x)}
 
