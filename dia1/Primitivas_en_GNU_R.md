@@ -16,21 +16,36 @@ Alt + Shift + k
 ## Ayuda on line en R
 
 * help()
+
 * ?mean
+
 * help.search()
+
 * ?? 'standard desviation'
+
 * help.start()              # abre una ventana en el navegador
+
 * example()                 # ejemplos del uso de mean
+
 
 ## Operaciones Aritmétics
 
-5+7                          # se evalua y el resultado se imprime 	
+
+
+5+7                          # se evalua y el resultado se imprime
+
 			     # por pantalla pero no se guarda 	
+			     
 5**7 	
-5-7 	
-5/7 	
-5^7  	                     # elevado a	
-51 %% 7                      # modulo (resto de una division entera)	
+
+5-7 
+
+5/7 
+
+5^7  	                     # elevado a
+
+51 %% 7                      # modulo (resto de una division entera)
+
 51 %/% 7                     # division entera	
 
 ## Asigncaión de valores a variables	
