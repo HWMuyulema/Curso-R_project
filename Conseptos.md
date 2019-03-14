@@ -4,7 +4,7 @@ La geoestadística aborda el problema de la predicción espacial en una región 
 
 [conseptos de un geografo](https://acolita.com/geoestadistica-interpolacion-con-kriging/)
 
-## Anális exploratorio de los datos espaciales
+## Análisis exploratorio de los datos espaciales
 
 Los objetivos del análisis exploratorio en líneas generales son:
 
