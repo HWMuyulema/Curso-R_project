@@ -1,4 +1,7 @@
 # Básicas
+## Atajos
+Alt + Shift + k
+
 ## Configuración del entorno
 
 * getwd ()
