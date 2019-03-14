@@ -1,6 +1,10 @@
-# Básicas
+# [Básicas](http://www.davidam.com/software/R/primitivasR.html)
 ## Atajos
 Alt + Shift + k
+  * Ctrol + Shift + 1
+  * Ctrol + Shift + 2
+  * Ctrol + Shift + 3
+  * Ctrol + Shift + 4
 
 ## Configuración del entorno
 
