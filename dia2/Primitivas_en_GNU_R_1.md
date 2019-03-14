@@ -8,7 +8,7 @@ factor(estudios)
 nivel.estudios <- factor(estudios, levels=1:4,labels=c("primarios", "secundarios", "superiores", "doctorado"), ordered=T)  
 nivel.estudios  
 factor(c(5,2,2,4,5,4,3,3,1), 2:5, exclude=4) # los valores 1 y 4 se consideran valores perdidos  
-# OJO. Internamente R siempre se asigna 1 al primer nivel del factor, 2 al segundo etc.  
+#OJO. Internamente R siempre se asigna 1 al primer nivel del factor, 2 al segundo etc.  
 levels(nivel.estudios)           # levels() extrae los posibles niveles de un factor  
 as.numeric(nivel.estudios)       # recodifica el factor numericamente  
 codigo.postal <- factor(c('28011', '28044', '28011','28013', '28013','28023'))  
@@ -59,7 +59,7 @@ det(X)                   # determinante
 X.inv <- solve (X)   # inversa de X (siempre que X sea cuadrada no singular, claro)  
 X.inv  
 X%*%X.inv                # Comprueba el resultado. Ojo a los errores de redondeo  
-# En general, solve(a,b) es una funcion que resuelve a %*% x = b para x, donde b puede ser un vector o una matriz. Si no se explicta se asume que es la matriz identidad y la funcion devuelve la inversa de a  
+#En general, solve(a,b) es una funcion que resuelve a %*% x = b para x, donde b puede ser un vector o una matriz. Si no se explicta se asume que es la matriz identidad y la funcion devuelve la inversa de a  
 A <- matrix(c(1,4,12,15),2,2); A  
 B <- matrix(c(5,2),2,1);B  
 X <- solve(A,B); X  
