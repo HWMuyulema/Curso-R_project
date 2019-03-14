@@ -294,7 +294,7 @@ is.nan(1/x) # Hay que tener cuidado con los NaN porque cualquier operacion con u
 
 ## Manipulación de vectores y caracteres
 
-# Concatena objetos en un vector de caracteres. Funcion paste(..., sep = " ", collapse = NULL)  
+#Concatena objetos en un vector de caracteres. Funcion paste(..., sep = " ", collapse = NULL)  
 juntar <- paste("Una ", "frase ", "cualquiera",  collapse ="");juntar  
 v1<-c("A","B")  
 v2<-2:3  
@@ -303,7 +303,7 @@ codigos <- paste(v1,v2, sep = ".");print(codigos)
 x <- paste(LETTERS[1:5]);x  
 x <- paste(LETTERS[1:5], collapse="");x  
 
-# Concatena e imprime. Funcion cat(... , file = "", sep = " ", fill = F, labels = NULL, append = F)  
+#Concatena e imprime. Funcion cat(... , file = "", sep = " ", fill = F, labels = NULL, append = F)  
 verano <- month.abb[7:9]; verano  
 cat(verano)         # el resultado no puede guardarse en ua variable  
 cat(verano,"\n")  
