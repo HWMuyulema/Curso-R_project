@@ -259,3 +259,28 @@ x == y          # equivalente a identical(x, y) o all.equal(x, y, tol=0)
 y <- y+0.001; y  
 identical(x, y)  
 all.equal(x, y, tol=0.001)  
+
+## Operadores lógicos
+
+
+a<-c(TRUE,TRUE,FALSE,FALSE)  
+b<-c(F, T, F, T)  
+a&b  
+a|b  
+!(a&b)  
+(!a)|(!b)  
+
+## Identificación y sustitución de valores perdidos
+
+rm(list=ls())  
+x <- c(3,6,4,2,8,9)  
+print (x); length(x)  
+x[8:10] <- 3;x  
+is.na(x)  
+!is.na(x)  
+which(is.na(x))  
+x[is.na(x)]<-999;x  # codifica como 999 los valores perdidos  
+x==NA           # la expresion logica x == NA sa un resultado muy distinto de  
+is.na(x) 
+
+
