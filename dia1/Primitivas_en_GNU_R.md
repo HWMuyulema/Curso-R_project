@@ -1,4 +1,5 @@
-# [Básicas](http://www.davidam.com/software/R/primitivasR.html)
+# Básicas
+[Tomado de David Arroyo Menéndez](http://www.davidam.com)
 ## Atajos
 Alt + Shift + k
   * Ctrol + Shift + 1
