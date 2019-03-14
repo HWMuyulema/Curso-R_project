@@ -315,4 +315,13 @@ cat("Estaciones:","\t","Moncloa","\n", "\t", "\t","Aluche","\n")
 #Todo junto: cat() y paste()  
 x<-2/3; cat(paste("resultado", signif(x,2), sep=" : " ),"\n")  
 
+## Indexación de vectores mediante variables de caracteres. función names()
+
+edad <- c(12,22,15,16,10)  
+names(edad)                     # por defecto no se asignan nombres  
+names(edad) <- paste("suj#", sep = "",length(edad):1); edad  
+names(edad)  
+edad["suj#2"]                   # devuelve la edad de Sujeto #2 (almacenado en la penultima posicion)  
+edad[length(edad)-1]  
+names(edad) <- NULL; edad   # elimina los nombre asignados  
 
