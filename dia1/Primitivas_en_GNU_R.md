@@ -50,35 +50,62 @@ Alt + Shift + k
 
 ## Asigncaión de valores a variables	
 
-x <- 1                       # asigna el valor 1 a la variable x  	
-x                            # lo escribe por pantalla	  
+x <- 1                             # asigna el valor 1 a la variable x  
+
+x                                  # lo escribe por pantalla	
+
 y <- x^2   	
-x = 1                        # una alternativa	  
-1 -> x                       # otra alternativa	  
+
+x = 1                              # una alternativa
+
+1 -> x                             # otra alternativa	
+
 
 ## Funciones
 
+
+
 q                            # Muestra informacion de la funcion	
+
 ?q
-                             # Algunas funciones elementales: log(), log10(),	
+                             # Algunas funciones elementales: log(), log10(),
+			     
                              # exp(), sqrt(), sin(), cos(), tan()	
-                             # Mas funciones basicas: c(), max(), min(),	
-                             # pmax(), pmin(), range(), length(), sort()	
-                             # sum(), rowSums(), prod(), mean(), colMeans(),	
+			     
+                             # Mas funciones basicas: c(), max(), min(),
+			     
+                             # pmax(), pmin(), range(), length(), sort()
+			     
+                             # sum(), rowSums(), prod(), mean(), colMeans(),
+			     
+			     
                              # var(), cumsum(), etc.	
-c(2,69,5,47,3647)	
-sum(1,3,5,7)	
+c(2,69,5,47,3647)
+
+sum(1,3,5,7)
+
 raiz64 <- sqrt(64)           # el resultado de una funcion	
+
 			     # puede guardarse en una variable	
-print(x)	
+			     
+print(x)
+
 print(pi,digits=16); print(pi,digits=5)	
 
-## Listar y eliminar objetos del espacio de trabajo	
+
+## Listar y eliminar objetos del espacio de trabajo
+
+
+
+ls() 
+
+rm(x,raiz64) 	
+
+ls() 
+
+rm(list=ls()) 
 
 ls() 	
-rm(x,raiz64) 	
-ls() 	
-rm(list=ls()) 	
-ls() 	
+
 
 
