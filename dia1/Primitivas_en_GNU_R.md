@@ -97,7 +97,7 @@ print(pi,digits=16); print(pi,digits=5)
 
 
 
-ls() 
+ls() # para ver las variables que estan en el espacio de trabajo
 
 rm(x,raiz64) 	
 
@@ -106,6 +106,52 @@ ls()
 rm(list=ls()) 
 
 ls() 	
+
+# Tipos de Datos
+
+## Booleanos
+
+verdad <- T
+
+mentira <- F
+
+edad <- c(27,30,29);
+
+is.numeric(edad)
+
+is.integer(edad)
+
+is.double(edad) # tambien existen is.complex(),
+
+				# is.logical(), is.character()...
+				
+typeof(edad)    # devuelve el tipo del objeto
+
+				# introducido como argumento
+				
+				
+## Arrays
+calle <- c('Av/ Amazonas','Av. Eloy Alfaro')
+
+## Conversión de tipo
+
+as.character(verdad)
+
+as.numeric(verdad)      # doble precision por defecto
+
+y <- c(0,1,27,14.9,NA,-3.2);y   # ojo, trunca en vez de redondear
+
+as.logical(y)
+
+as.character(y)
+
+as.integer(y)
+
+y<-c("hola", "adios","true","TRUE", "T", "F","129",NA ,"6");y
+
+as.logical(y)
+
+as.numeric(y)
 
 
 
