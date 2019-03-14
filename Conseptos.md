@@ -4,6 +4,19 @@ La geoestadística aborda el problema de la predicción espacial en una región 
 
 [conseptos de un geografo](https://acolita.com/geoestadistica-interpolacion-con-kriging/)
 
+## Anális exploratorio de los datos espaciales
+
+Los objetivos del análisis exploratorio en líneas generales son:
+
+
+* Examinar la distribuación de los datos
+* Determinar valores extremos (outliers) locales y globales
+* Buscar tendencias globales 
+* Examinar la autocorrelación espacial y variación direccional de los datos
+* Entender la covariación entre multiples variables
+* Realizar transformaciones de los datos si son requeridos
+ Las medidas de la dispersión detectan la dispersion de los valores alrededor del valor medio, enciarta manera miden la anchura de la distribución, la varianza de los datos es la media del cuadarado de las desviaciones. Es muuy sensible a los valores extremos, la desviación típica es la raíz cuadrada de la varianza. Describe la dispersión de los datos respecto a la media de las mismas unidades  que los datos originales. Cuanto más pequeña sea la variaza y la desviación típica mas agrupados estarán los datos del valor medio.
+
 ## VARIABLE ALEATORIA 
 
 
