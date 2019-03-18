@@ -15,13 +15,13 @@ h[,4];h
 
 h[2,];h
 
-# Datos no disponibles, missing data
-# Generamos una distribución normal
+#Datos no disponibles, missing data
+#Generamos una distribución normal
 
 x=rnorm(100);x
 z=rep(NA,100);z
 
-# seleccionaremos aleatoriamente 50 elementos de esos 200 valores (combimando ‘y’ y ‘z’), de modo que no sabremos cuantos NA hay en el vector resultante, ni donde estan localizados
+#seleccionaremos aleatoriamente 50 elementos de esos 200 valores (combimando ‘y’ y ‘z’), de modo que no sabremos cuantos NA hay en el vector resultante, ni donde estan localizados
 # sample presenta muestras aleatorias y permutaciones
 
 mi_dato<-sample(c(x,z),50)
@@ -31,12 +31,12 @@ mi_dato
 mi_na= is.na(mi_dato)
 mi_na
 
-# Necesitamos detrminar cuantos NA existen
+#Necesitamos detrminar cuantos NA existen
 sum(mi_na)
 
 table(mi_na)
 
-# No es lo mismo NA que NaN (infinito 0/0)
+#No es lo mismo NA que NaN (infinito 0/0)
 #muestrame los 10 primeros valores
 mi_dato[1:10]
 
@@ -64,12 +64,12 @@ vect[c('a','c')]
 mi_vect<- 1:24
 mi_vect
 
-# dim informa sobre las dimensiones de un objeto
+#dim informa sobre las dimensiones de un objeto
 
 dim(mi_vect)
 length(mi_vect)
 
-# agregamos filas y columnas
+#agregamos filas y columnas
 
 dim(mi_vect)<- c(6,4)
 dim(mi_vect)
@@ -80,7 +80,7 @@ mi_vect
 
 class(mi_vect)
 
-# si cramos una matriz directa 
+#si creamos una matriz directa 
 mi_matriz2 <- matrix(1:20, nrow=4, ncol=5)
 mi_matriz2
 
@@ -89,7 +89,7 @@ estudiantes
 
 cbind(estudiantes,mi_matriz2)
 
-# creamos data frames
+#creamos data frames
 
 df<- data.frame(estudiantes,mi_matriz2);df
 class(df)
@@ -156,11 +156,11 @@ plot(cars,pch=25)
 data("mtcars")
 dim(mtcars)
 boxplot(mtcars)
-# ~ nos da la realción entre las varables de entrada
+#(~) nos da la relación entre las varables de entrada
 #Esto le permite introducir algo como mpg ~ cil para trazar la relacion entre cilindros (numero de cilindros) en el eje X y mpg (millas por galon) en el eje y. Use boxplot() con formula = mpg ~ cyl y data = mtcars para crear un boxplot.
 boxplot(formula = mpg ~ cyl, data = mtcars)
 
-# Si tenemos una sola variable
+#Si tenemos una sola variable
 hist(mtcars$mpg)
 
 #Instalación de paquetes
