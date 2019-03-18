@@ -1,8 +1,8 @@
 a = 1:10  
-b = rep(6,times=10) 
-m<- cbind(a,b) # bind=enlazar 
-m 
-m<- cbind(a,b,x=a*b)  
+b = rep(6,times=10)  
+m<- cbind(a,b) # bind=enlazar  
+m  
+m<- cbind(a,b,x=a*b)    
 m    
 
 ## Matrices
