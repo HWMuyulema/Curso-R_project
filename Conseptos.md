@@ -34,3 +34,7 @@ por un conjunto de muestras, descrito por letras minúsculas). [ptolomeo , p7](h
 
 Una variable aleatoria es un número que representa un resultado de una circunstancia o un experimento aleatorio. Una variable aleatoria puede ser discreta o continua. Una variable aleatoria discreta solo puede tener valores contables distintos, tales como 0, 1, 2, 3, …. Los ejemplos incluyen el número de estudiantes en un aula, el número de aviones en un aeropuerto o el número de defectos en un lote. Una variable aleatoria continua puede tener cualquier valor, por ejemplo una medición. Los ejemplos incluyen la estatura de los sujetos de un estudio, el peso de cajas de cereal o la longitud de destornilladores.
 
+
+# Bibliografía
+
+[jumanbar](https://github.com/jumanbar/Curso-R/blob/master/lecciones/trabajo-con-tablas.R)
