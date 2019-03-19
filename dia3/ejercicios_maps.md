@@ -39,6 +39,8 @@ zona_estudio@data
 
 view(zona_estudio@data)
 
+zona_estudio1<-zona_estudio[zona_estudio$DPA_PROVIN !=15] #para quitar esta provincia
+
 class(zona_estudio)
 
 proj4string(zona_estudio)
