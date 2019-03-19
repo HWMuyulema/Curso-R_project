@@ -35,6 +35,10 @@ ogrInfo('.','prov_zona_estudio')
 
 zona_estudio<- readOGR('.','prov_zona_estudio')
 
+zona_estudio@data
+
+view(zona_estudio@data)
+
 class(zona_estudio)
 
 proj4string(zona_estudio)
