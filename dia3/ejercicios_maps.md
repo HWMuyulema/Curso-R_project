@@ -15,8 +15,8 @@ require(MODISTools)
     * Asignar coordenadas
     * Guardar archivosd txt y shp
 
-require(sp) 
-require(rgdal)  
+require(sp)   
+require(rgdal)    
 require(raster)  
 require(rgeos)  
 
