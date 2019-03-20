@@ -1,3 +1,4 @@
+## c ó r bind
 a = 1:10  
 b = rep(6,times=10)  
 m<- cbind(a,b) # bind=enlazar  
