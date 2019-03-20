@@ -126,6 +126,25 @@ M=matrix(1,4,nrow=2)
 MiLista <- list(misDatos,A,M=M,x=c(1,2,3,4),e=exp(1))  
 MiLista  
 
+## set.seed
+
+Para crear simulaciones u objetos aleatorios que se pueden reproducir para asegurar que los datos sean reproducibles.
+
+Si se quiere ejecutar la función anterior, pero partiendo de una semilla concreta (para
+garantizar el mismo resultado en cualquier ejecución), se usará la función set.seed()
+antes de la anterior
+> runif(5) # genera valores de una distribución uniforme 
+
+> runif(5)
+
+> set.seed(32789)  
+> runif(5)
+
+
+
+> set.seed(32789)  
+> runif(5)
+
 ## Explorar datos 
 #Utilizaremos una dase de datos conocidos 
 
@@ -173,26 +192,6 @@ plot(x = cars$speed, y = cars$dist, xlab = "Velocidad", ylab = "Distancia de par
 plot(cars,main='Mi gráfico')  
 plot(cars,sub='aquí va el subtitulo') 
 plot(cars,col=4)  
-
-## set.seed
-
-Para crear simulaciones u objetos aleatorios que se pueden reproducir para asegurar que los datos sean reproducibles.
-
-Si se quiere ejecutar la función anterior, pero partiendo de una semilla concreta (para
-garantizar el mismo resultado en cualquier ejecución), se usará la función set.seed()
-antes de la anterior
-> runif(5)  
-
-> runif(5)
-
-> set.seed(32789)  
-> runif(5)
-
-
-
-> set.seed(32789)  
-> runif(5)
-
 
 
 
