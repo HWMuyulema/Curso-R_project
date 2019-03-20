@@ -33,7 +33,7 @@ ogrInfo('.','prov_zona_estudio')
 
 #cargar la capa
 
-zona_estudio<- readOGR('.','prov_zona_estudio')
+zona_estudio<- readOGR('.','ORGANIZACION TERRITORIAL PROVINCIAL 2018')
 
 zona_estudio@data
 
