@@ -174,6 +174,23 @@ plot(cars,main='Mi gráfico')
 plot(cars,sub='aquí va el subtitulo') 
 plot(cars,col=4)  
 
+## set.sedd
+Si se quiere ejecutar la función anterior, pero partiendo de una semilla concreta (para
+garantizar el mismo resultado en cualquier ejecución), se usará la función set.seed()
+antes de la anterior
+> runif(5)  
+
+> runif(5)
+
+> set.seed(32789)  
+> runif(5)
+
+
+
+> set.seed(32789)  
+> runif(5)
+
+
 
 
 ## vamos a limitar el eje de las x
