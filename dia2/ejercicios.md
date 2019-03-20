@@ -99,7 +99,11 @@ estudiantes
 
 cbind(estudiantes,mi_matriz2) 
 
-## creamos data frames  
+## creamos data frames
+
+
+Los data frames son una estructura de datos que generaliza a las matrices
+
 
 df<- data.frame(estudiantes,mi_matriz2);df  
 class(df) 
@@ -112,6 +116,15 @@ colnames(df)<-cnames;colnames
 colnames(df)  
 df  
 
+# Listas
+Podemos entender una lista como un contenedor de objetos que pueden ser de cualquier clase: números, vectores, matrices, funciones, data.frames, incluso otras listas.
+
+Por ejemplo, podemos crear una lista que contenga el data.frame misDatos, la matriz A, la matrizM, el vector x=c(1,2,3,4) y la constante e=exp(1):
+
+A=matrix(1:9,nrow=3)  
+M=matrix(1,4,nrow=2)  
+MiLista <- list(misDatos,A,M=M,x=c(1,2,3,4),e=exp(1))  
+MiLista  
 
 ## Explorar datos 
 #Utilizaremos una dase de datos conocidos 
