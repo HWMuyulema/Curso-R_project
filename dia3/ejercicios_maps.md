@@ -15,10 +15,10 @@ require(MODISTools)
     * Asignar coordenadas
     * Guardar archivosd txt y shp
 
-require(sp)
-require(rgdal)
-require(raster)
-require(rgeos)
+require(sp) 
+require(rgdal)  
+require(raster)  
+require(rgeos)  
 
 #setwd()
 #shell.exec("https://drive.google.com/uc?export=download&id=0B0ea6usixQHFTktDSC04MHNJY2M")
