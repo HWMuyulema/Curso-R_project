@@ -20,7 +20,7 @@ require(rgdal)
 require(raster)  
 require(rgeos)  
 
-#setwd()
+#setwd()  
 #shell.exec("https://drive.google.com/uc?export=download&id=0B0ea6usixQHFTktDSC04MHNJY2M")
 
 ogrDrivers()
