@@ -39,14 +39,5 @@ pol.ndvi<-rasterToPolygons(ndvi)
 
 plot(pol.ndvi)  
 
-writeSpatialShape(pol.ndvi,'pol.ndvi.shp')  
+writeOGR(pol.ndvi,'pol.ndvi.shp','pol.ndvi',driver="ESRI Shapefile"') 
 
-ecuador<-CRS('+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs')  
-
-# reproyeccion  
-pol.ndvi<-spTransform(pol.ndvi,ecuador) 
-
-#escribimos el kml y guardamos el archivo 
-writeOGR(pol.ndvi,'pol.ndvi.kml','pol.ndvi',driver='KML') 
-
-kml_View('pol.ndvi.kml')  
