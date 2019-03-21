@@ -1,7 +1,7 @@
-library(raster) 
-library(sp) 
-library(rgdal)  
-library(maptools) 
+library(raster)   
+library(sp)   
+library(rgdal)    
+library(maptools)   
 
 setwd("I:/MAGAP/INUNDACIONES 2015_2016/SHP")  
 list.files()  
