@@ -15,12 +15,12 @@ require(MODISTools)
     * Asignar coordenadas
     * Guardar archivosd txt y shp
 
-require(sp)   
-require(rgdal)    
-require(raster)  
-require(rgeos)  
+require(sp) 
+require(rgdal) 
+require(raster)   
+require(rgeos) 
 
-#setwd()  
+#setwd()
 #shell.exec("https://drive.google.com/uc?export=download&id=0B0ea6usixQHFTktDSC04MHNJY2M")
 
 ogrDrivers()
@@ -33,13 +33,7 @@ ogrInfo('.','prov_zona_estudio')
 
 #cargar la capa
 
-zona_estudio<- readOGR('.','ORGANIZACION TERRITORIAL PROVINCIAL 2018')
-
-zona_estudio@data
-
-view(zona_estudio@data)
-
-zona_estudio1<-zona_estudio[zona_estudio$DPA_PROVIN !=15] #para quitar esta provincia
+zona_estudio<- readOGR('.','prov_zona_estudio')
 
 class(zona_estudio)
 
