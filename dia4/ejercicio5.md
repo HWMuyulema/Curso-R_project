@@ -29,13 +29,13 @@ str(subset)
 
 
 date <- as.Date(subset$calendar_date)  
-temperature <- subset$value * as.double(subset$scale)  
-temperature[temperature == 0] <- NA  
+ndvi <- subset$value * as.double(subset$scale)  
+ndvi[ndvi == 0] <- NA  
 
 
 
 plot(date,  
-     temperature,  
+     ndvi,  
      xlab = "Date",  
      ylab = "NDVI",  
      ylim = c(0,1),  
