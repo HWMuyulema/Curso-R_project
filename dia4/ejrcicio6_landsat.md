@@ -93,4 +93,5 @@ cuts = round(cuts,digits=2)
 col.regions = brewer.pal(length(cuts)+2, "RdYlGn")  
 spplot(as(ndvi2, 'SpatialGridDataFrame'),at=cuts,col.regions=col.regions,colorkey=list(labels=list(at=cuts),at=cuts),      pretty=TRUE,scales=list(draw=T))
 
-
+# Bibliografía
+http://sigyury.blogspot.com/p/manual-basico-de-arcgis-10.html
