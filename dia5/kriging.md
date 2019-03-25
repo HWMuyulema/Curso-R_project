@@ -1,9 +1,9 @@
-library(gstat) 
-library(sp) 
-library(ggplot2) 
-library(rgeos) 
-library(DescTools) 
-library(mapview) 
+library(gstat)   
+library(sp)   
+library(ggplot2)   
+library(rgeos)   
+library(DescTools)   
+library(mapview)   
 
 
 
